@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Armstrong number</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="logo">
+		<img src="Andela-logo.png" alt="Andela logo">
+		<p>ARMSTRONG CHALLENGE</p>
+	</div>
+
+	<div class="container">
+		<div class="header">
+			<p>OPARA KELECHI</p>
+			<h2>Present</h2>
+			<h4>Armstrong Challenge</h4>
+		</div>
+
+		
+		<div class="content">
+			<!--form div -->
+			<div class="main-form">
+				<form>
+					<input type="text" name="digits" id="digits" class="txt" onkeyup="disable()" placeholder="enter a 3 digits number">
+
+					<input type="button" name="btn" class="btn" id="btn" onclick="armstrong()" value="Submit">
+				</form>
+			</div>
+
+			<!--result div-->
+			<div class="answer">
+				<div class="count">
+					<p id="error"></p>
+					<p id="result">kelechi</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<h1>contact us @</h1>
+		<div id="footDiv">
+			<a href="https://www.facebook.com/kelechi.opara.794" target="_blank"><i class="fa fa-facebook-square"></i></a>
+			<a href="https://github.com/riskymind" target="_blank"><i class="fa fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/kelechi-opara-b3a565127/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
